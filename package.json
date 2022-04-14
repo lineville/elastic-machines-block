@@ -63,6 +63,7 @@
     "@octokit/rest": "^18.12.0",
     "@types/lodash.uniqueid": "^4.0.6",
     "git-url-parse": "^11.6.0",
+    "js-yaml": "^4.1.0",
     "lodash.uniqueid": "^4.0.1",
     "parse-static-imports": "^1.1.0",
     "react": "^17.0.0",
@@ -72,6 +73,7 @@
   },
   "devDependencies": {
     "@types/git-url-parse": "^9.0.1",
+    "@types/js-yaml": "^4.0.5",
     "@types/parse-github-url": "^1.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
