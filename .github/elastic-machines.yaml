@@ -1,0 +1,12 @@
+- provider: azure-virtual-machine-scale-set
+  with:
+    virtualMachineScaleSetId: /subscriptions/685eed17-13cd-4ade-96cd-28ed2e0c4d53/resourceGroups/Elastic-Machines-Scale-1/providers/Microsoft.Compute/virtualMachineScaleSets/em-cd-az-scale-1-scale-set
+  scale:
+    - minimumMachines: 0
+      maximumMachines: 20
+- provider: azure-virtual-machine-scale-set
+  with:
+    virtualMachineScaleSetId: /subscriptions/685eed17-13cd-4ade-96cd-28ed2e0c4d53/resourceGroups/Elastic-Machines-Scale-2/providers/Microsoft.Compute/virtualMachineScaleSets/em-cd-az-scale-2-scale-set
+  scale:
+    - minimumMachines: 0
+      maximumMachines: 10

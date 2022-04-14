@@ -43,6 +43,17 @@
         "*"
       ],
       "example_path": "https://github.com/githubocto/flat"
+    },
+    {
+      "type": "file",
+      "id": "elastic-machines-config-block",
+      "title": "Elastic machines config",
+      "description": "A config block for elastic machines",
+      "entry": "/src/blocks/elastic-machines-config-block/index.tsx",
+      "extensions": [
+        "*"
+      ],
+      "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
     }
   ],
   "dependencies": {

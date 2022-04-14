@@ -1,0 +1,16 @@
+name: Elastic Machines Basic
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sleep:
+    runs-on: ${{ matrix.runner }}
+
+    strategy:
+      matrix:
+        runner: [self-hosted, linux, windows]
+        time: [30, 40, 50, 60]
+
+    steps:
+      - run: sleep ${{ matrix.time }}
